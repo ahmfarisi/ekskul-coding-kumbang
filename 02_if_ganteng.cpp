@@ -8,7 +8,9 @@ int main(){
 	cout<<"Tebak Kegantenganmu"<<endl;
 	cout<<"==================="<<endl;
 	
-	cout<<"Nama Kamu : "; getline(cin, nama);
+	cout<<"Nama Kamu : "; 
+	//cin>>nama;
+	getline(cin, nama);
 	
 	if(nama == "Kamen Rider"){
 		cout<<"ANDA GANTENG";
