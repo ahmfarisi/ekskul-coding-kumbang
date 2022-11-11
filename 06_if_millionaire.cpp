@@ -35,5 +35,18 @@ int main(){
 		_exit(0);
 	}
 	
+	cout<<"Pertanyaan Ketiga"<<endl;
+	cout<<"------------------"<<endl;
+	cout<<"Yang merupakan petinju legendaris dunia di bawah ini adalah ..."<<endl;
+	cout<<"A. Janvinlie        B. Vincent Junio              "<<endl;
+	cout<<"C. Muhammad Afif    D. Mike Tyson                 "<<endl<<endl;
+	cout<<"Jawaban (A/B/C/D) : ";cin>>jawaban;
+	cout<<endl;
+	
+	if(jawaban != 'D'){
+		cout<<"JAWABAN SALAH !";
+		_exit(0);
+	}
+	
 	return 0;
 }
