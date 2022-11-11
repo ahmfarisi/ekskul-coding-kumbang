@@ -3,10 +3,7 @@
 using namespace std;
 
 int main(){	
-	int angka;
-	int jawaban;
-	int x;
-	int y;
+	int angka, jawaban, x, y;
 	
 	cout<<"=============================="<<endl;
 	cout<<"TEBAK ANGKA ANTARA x SAMPAI y"<<endl;
