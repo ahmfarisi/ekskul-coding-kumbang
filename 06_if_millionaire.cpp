@@ -3,11 +3,15 @@ using namespace std;
 
 int main(){
 	char jawaban;
+	int duit;
+	
+	duit = 0;
 	
 	cout<<"============================="<<endl;
 	cout<<"WHO WANTS TO BE A MILLIONAIRE"<<endl;
 	cout<<"============================="<<endl<<endl;
 	
+	cout<<"Uang Anda : Rp "<<duit<<endl<<endl;
 	cout<<"Pertanyaan Pertama"<<endl;
 	cout<<"------------------"<<endl;
 	cout<<"Di Indonesia, 10 November dikenal sebagai hari ..."<<endl;
@@ -20,7 +24,12 @@ int main(){
 		cout<<"JAWABAN SALAH !";
 		_exit(0);
 	}
+	else{
+		cout<<"SELAMAT JAWABAN BENAR !"<<endl<<endl;
+		duit = duit + 5000000;
+	}
 	
+	cout<<"Uang Anda : Rp "<<duit<<endl<<endl;
 	cout<<"Pertanyaan Kedua"<<endl;
 	cout<<"------------------"<<endl;
 	cout<<"Di bawah ini yang merupakan Kota/Kabupaten di Provinsi"<<endl;
@@ -34,7 +43,12 @@ int main(){
 		cout<<"JAWABAN SALAH !";
 		_exit(0);
 	}
+	else{
+		cout<<"SELAMAT JAWABAN BENAR !"<<endl<<endl;
+		duit = duit + 5000000;
+	}
 	
+	cout<<"Uang Anda : Rp "<<duit<<endl<<endl;
 	cout<<"Pertanyaan Ketiga"<<endl;
 	cout<<"------------------"<<endl;
 	cout<<"Yang merupakan petinju legendaris dunia di bawah ini adalah ..."<<endl;
@@ -47,6 +61,12 @@ int main(){
 		cout<<"JAWABAN SALAH !";
 		_exit(0);
 	}
+	else{
+		cout<<"SELAMAT JAWABAN BENAR !"<<endl<<endl;
+		duit = duit + 5000000;
+	}
+	
+	cout<<"Uang Anda : Rp "<<duit<<endl<<endl;
 	
 	return 0;
 }
